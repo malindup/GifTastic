@@ -2,7 +2,7 @@ $(document).ready(function() {
   //Adding this because the page errors out and does not recognize document if favList array has items in it
   /*localStorage.clear();*/
 //Array of actors to create the starter buttons dynamically
-let topics = ["Tom Hardy", "Orlando Bloom", "Tom Cruise", "Johnny Depp", "Dwayne Johnson", "Tom Hanks", "Kevin Hart", "Emma Watson", "kate winslet", "patrick stewart"];
+let topics = ["Tom Hardy", "Orlando Bloom", "Tom Cruise", "Johnny Depp", "Dwayne Johnson", "Tom Hanks", "Kevin Hart", "Emma Watson", "Russel Peters", "patrick stewart"];
 //Function that dynamically creates the starting buttons based on the array above.
 function actorButtons() {
   //Removes existing buttons so they are not repeated each time function is called
