@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Reset stylesheet-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!--Personal stylsheet-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!--Tab Title--> 
+    <title>Giphy Project</title>
+  </head>
+  <body>
+    <!--Container that holds everything, to make it responsive-->
+    <div id="container">
+      <!--Div for the buttons to generate dynamically-->
+      <div id="buttons"></div>
+      <aside id="form">
+        <!--Form that hold the input box that adds an animal to the existing buttons-->
+        <form>
+          <!--Label for the input box-->
+          <label for="actor-input">Add your actor here!</label><br>
+          <!--Input box that adds a new button when filled out and the submit button is clicked-->
+          <input type="text" id="actor-input" placeholder="Actor"><br>
+          <button type="submit" id="add-actor">Add actor</button>
+        </form>
+      </aside>
+      <!--Div for favorited gifs to append to-->
+      <div id="favorites"></div>
+      <!--Div for gifs to generate dynamically-->
+      <div id="gifs"></div>
+    </div>
+    <!--jQuery Script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--Local JS script-->
+    <script src="assets/javascript/app.js"></script>
+  </body>
+
+</html>
